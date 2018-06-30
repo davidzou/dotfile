@@ -1,0 +1,21 @@
+brew install wget
+brew cask install google-chrome
+brew cask install keka
+brew cask install gimp
+brew cask install atom
+brew install rename
+brew install xmlstarlet
+brew cask install genymotion
+brew cask install macdown
+brew install bash-completion gradle-completion
+brew cask install vnc-viewer
+brew cask install vlc
+brew cask install Vuze
+brew cask install fritzing
+brew install git-lfs
+
+brew tap davidzou/apkinfo
+brew install apkinfo
+
+brew tap davidzou/koi
+brew install koi
