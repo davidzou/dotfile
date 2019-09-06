@@ -1,0 +1,22 @@
+[user]
+        name = zouzhangwei
+        email = wearecisco@gmail.com
+
+[alias]
+		a = add .
+        s = status
+        l = log --decorate --graph --all --oneline
+		cm = commit -m
+		br = branch -av
+		lg = log --color --all --graph --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset ---%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit
+
+[core]
+		editor = vim
+
+[color]
+		ui = auto
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
