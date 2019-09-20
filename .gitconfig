@@ -9,6 +9,7 @@
 		cm = commit -m
 		br = branch -av
 		lg = log --color --all --graph --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset ---%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit
+		po = push origin
 
 [core]
 		editor = vim
