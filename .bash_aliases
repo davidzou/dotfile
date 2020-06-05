@@ -32,3 +32,4 @@ alias drmi="rm_docker_image"
 alias dstop="docker stop \"$(docker ps -a -q)\""
 alias dbuild="build_docker_image"
 
+alias xbclean="xcodebuild -project $1.xcodeproj -scheme $1 -configuration clean"

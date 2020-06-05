@@ -13,6 +13,9 @@ brew cask install vlc
 brew cask install Vuze
 brew cask install fritzing
 brew install git-lfs
+brew cask install drawio
+brew cask install balenaetcher
+
 
 brew install httpie
 brew install jq
