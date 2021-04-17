@@ -25,3 +25,5 @@ brew install apkinfo
 
 brew tap davidzou/koi
 brew install koi
+
+brew install vysor
